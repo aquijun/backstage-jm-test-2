@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-service-component
+  description: description sample
+  annotations:
+    github.com/project-slug: aquijun/backstage-jm-test-2
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: DEV
